@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   registerMode = false;
-  users: any;
 
   constructor() {}
 
@@ -17,7 +16,7 @@ export class HomeComponent implements OnInit {
     this.registerMode = !this.registerMode;
   }
 
-  cancelREgisterMode(event: boolean) {
+  cancelRegisterMode(event: boolean) {
     this.registerMode = event;
   }
 }

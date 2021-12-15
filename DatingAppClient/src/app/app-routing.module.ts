@@ -21,7 +21,6 @@ const routes: Routes = [
       {
         path: 'members',
         component: MemberListComponent,
-        canActivate: [AuthGuard],
       },
       {
         path: 'members/:id',
