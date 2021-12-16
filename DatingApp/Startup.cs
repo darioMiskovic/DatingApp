@@ -40,7 +40,7 @@ namespace DatingApp
             services.AddApplicationServices(_config);
             services.AddControllers();
             services.AddCors();
-            services.AddApplicationServices(_config);
+            services.AddIdentityServices(_config);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DatingApp", Version = "v1" });
